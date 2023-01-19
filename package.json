@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "Ice-Cream-Shop",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://Vladyslav-Bekesh.github.io/Ice-Cream-Shop",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Ice-Cream-Shop/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Vladyslav-Bekesh/Ice-Cream-Shop.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Vladyslav-Bekesh/Ice-Cream-Shop/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
