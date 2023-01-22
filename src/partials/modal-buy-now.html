@@ -66,11 +66,11 @@
 			<div class="buy-now-box">
 				<div class="buy-now-box__item">
 					<label for="name"></label>
-					<input type="text" class="buy-now-box__input" name="name" id="name" placeholder="Name">
+					<input type="text" class="buy-now-box__input" name="name" id="name" placeholder="Name" required pattern="^[a-zA-Z]+\s[a-zA-Z]+$" title="Name must be two words separated by space.">
 				</div>
 				<div class="buy-now-box__item">
 					<label for="phone"></label>
-					<input type="text" class="buy-now-box__input" name="phone" id="phone" placeholder="Phone">
+					<input type="text" class="buy-now-box__input" name="phone" id="phone" placeholder="Phone" required pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$" minlength="19" maxlength="19">
 				</div>
 				<div class="buy-now-box__item buy-now-box__item--comment">
 					<label for="comment"></label>

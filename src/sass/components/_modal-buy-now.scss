@@ -149,6 +149,7 @@ is-hidden{
     z-index: 1;
 }
 
+
 .modal-buy-now__text{
     position: absolute;
     bottom: 0;
@@ -185,6 +186,24 @@ is-hidden{
         filter: drop-shadow(0px 5.26027px 19.726px rgba(212, 20, 67, 0.1));  
     }
     }
+
+
+    // .visually-hidden{
+    //     position: absolute;
+    //     width: 1px;
+    //     height: 1px;
+    //     margin: -1px;
+    //     border: 0;
+    //     padding: 0;
+    //     white-space: nowrap;
+    //     overflow: hidden;
+    // }
+
+  
+
+
+
+
 
     .buy-now-box{
         display: flex;
@@ -230,6 +249,11 @@ is-hidden{
         line-height: 1.42;
         color: var(--secondary-text-color);
         }
+}
+
+
+.buy-now-box__input:not(:focus):not(:placeholder-shown):invalid{
+    background-color: rgba(238, 44, 44, 0.534);
 }
 
 .buy-now-box__input--text{
