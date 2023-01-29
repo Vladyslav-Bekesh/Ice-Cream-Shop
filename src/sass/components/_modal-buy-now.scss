@@ -170,33 +170,42 @@ is-hidden{
     text-transform: uppercase;
     color: var(--secondary-text-color);
     border-radius: 15px;
-    transition: color 250ms linear;
+    transition: background-color 250ms linear;
     &.modal-buy-now__label--green{
         padding: 96px 16px 20px 16px;
-        background: transparent;
         border: 2px solid #96AF8C;
         filter: drop-shadow(0px 5.26027px 19.726px rgba(212, 20, 67, 0.1));
         
     }
     &.modal-buy-now__label--yellow{
         padding: 96px 13px 20px 13px;
-        background: #EFD478;
         border: 2px solid #EFD478;
         box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
-        z-index: -1;
     }
     &.modal-buy-now__label--brown{
         padding: 95px 13px 20px 13px;
-        background: transparent;
         border: 2px solid #D6936D;
         filter: drop-shadow(0px 5.26027px 19.726px rgba(212, 20, 67, 0.1));  
     }
     }
 
-    .modal-buy-now__label:hover,
-    .modal-buy-now__label:focus{
-        color: #96AF8C;
+    .modal-buy-now__label{
+        &.modal-buy-now__label--green:hover, 
+        &.modal-buy-now__label--green:focus{
+            background-color: #96AF8C;
     }
+    
+
+    &.modal-buy-now__label--yellow:hover, 
+    &.modal-buy-now__label--yellow:focus{
+        background-color: #EFD478;
+    }
+    &.modal-buy-now__label--brown:hover, 
+    &.modal-buy-now__label--brown:focus{
+        background-color: #D6936D;
+    }
+    }
+
     // .visually-hidden{
     //     position: absolute;
     //     width: 1px;
