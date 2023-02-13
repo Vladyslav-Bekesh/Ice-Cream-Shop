@@ -10,11 +10,8 @@
  }
 }
 
-// is-hidden{
-//     opacity: 0;
-//     visibility: hidden;
-//     pointer-events: none;
-// }
+// 
+
 
 .modal-buy-now{
     background-color: #fcfcfc;
@@ -154,6 +151,7 @@
 }
 
 
+
 // .modal-buy-now__text
 .modal-buy-now__label{
     position: absolute;
@@ -205,7 +203,15 @@
         background-color: #D6936D;
     }
     }
-
+    .modal-buy-now__input:checked + .modal-buy-now__label--brown{
+        background-color: #D6936D;
+    }
+    .modal-buy-now__input:checked + .modal-buy-now__label--yellow{
+        background-color: #EFD478;
+    }
+    .modal-buy-now__input:checked + .modal-buy-now__label--green{
+        background-color: #96AF8C;
+    }
     // .visually-hidden{
     //     position: absolute;
     //     width: 1px;
